@@ -2,6 +2,7 @@ from sqlalchemy.sql import func
 
 from src import db
 
+
 class User(db.Model):
     __tablename__ = 'users'
     
